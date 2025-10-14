@@ -1,0 +1,10 @@
+selenium
+pytest
+pytest-html
+pytest-order
+pytest-dependency
+pytest-xdist
+pytest-rerunfailures
+pytest-timeout
+allure-pytest
+behave
