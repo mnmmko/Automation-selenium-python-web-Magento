@@ -8,3 +8,5 @@ pytest-rerunfailures
 pytest-timeout
 allure-pytest
 behave
+openpyxl
+pathlib
