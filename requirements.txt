@@ -10,3 +10,4 @@ allure-pytest
 behave
 openpyxl
 pathlib
+pytest-bdd
