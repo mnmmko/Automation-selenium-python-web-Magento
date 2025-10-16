@@ -11,3 +11,4 @@ behave
 openpyxl
 pathlib
 pytest-bdd
+webdriver-manager

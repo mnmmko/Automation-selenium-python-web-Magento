@@ -43,3 +43,11 @@ class BasePage:
     def get_attribute(self, locator,attr):
         elem = self.fluent_wait(locator, 10, 3)
         return elem.get_attribute(attr)
+
+    def scroll_to_bottom(self):
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+    def scroll_to_element(self, locator):
+        element = self.fluent_wait(locator, 10, 3)
+        self.driver.execute_script("arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });", element)
+        return element

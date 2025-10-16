@@ -46,7 +46,9 @@ class RegisterPage(BasePage):
         self.clickbtn(self.check_is_registered)
 
     def clickregister(self):
+        self.scroll_to_element(self.register)
         self.clickbtn(self.register)
 
     def clickback(self):
+        self.scroll_to_element(self.back)
         self.clickbtn(self.back)
