@@ -16,7 +16,7 @@ class DriverManager:
             options.add_argument("--unsafely-treat-insecure-origin-as-secure=http://live.techpanda.org")
             options.add_argument("--disable-client-side-phishing-detection")
             options.add_argument("--disable-popup-blocking")
-            
+
             options.add_argument("--headless=new")  # optional
             options.add_argument("--disable-gpu")
             options.add_argument("--no-sandbox")

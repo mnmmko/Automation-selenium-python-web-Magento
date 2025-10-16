@@ -21,7 +21,7 @@ pipeline {
                 steps {
 
 
-                    bat 'pytest -v --maxfail=1 --disable-warnings'
+                    bat 'pytest -v'
 
                 }
 
